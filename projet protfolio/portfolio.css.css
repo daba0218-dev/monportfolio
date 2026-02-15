@@ -1,0 +1,117 @@
+body{
+margin: 0;
+padding: 0;
+font-family: 'Times New Roman', Times, serif;
+background-color: rgb(206, 209, 209);
+}
+.monlogo{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    margin-top: 30px;
+}
+ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    justify-content: center;
+
+}
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(87, 24, 81);
+    padding: 3px;
+    border-radius: 10px;
+}
+li a:hover{
+    background-color:rgb(8, 8, 8)
+}
+.monimg{
+    width: 200px;
+    height: 300px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+p{
+    font-size: 20px ;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.item{
+    display: flex;
+}
+.competence{
+    display: flex;
+    margin: 40px;
+   flex-direction: column;
+}
+.max{
+    width: 200px;
+    background-color: rgb(113, 110, 110);
+    height: 25px;
+      border-radius: 10px;
+}
+
+
+.valeur{
+    width: 95%;
+    height: 25px;
+    background-color:  rgb(161, 55, 144);
+    border-radius: 10px; 
+}
+.valeur1{
+    width: 60%;
+    height: 25px;
+    background-color:     rgb(161, 55, 144);
+    border-radius: 10px; 
+}
+.valeur2{
+    width: 40%;
+    height: 25px;
+    background-color:     rgb(161, 55, 144);
+    border-radius: 10px; 
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40%;
+    margin-top: 10px;
+}
+.icone{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+
+}
+.form{
+    border: solid;
+    border-radius: 10ox;
+    padding: 50px;
+    margin-top: 40px;
+   
+}
+h2{
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
